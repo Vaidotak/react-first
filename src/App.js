@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          paredagavau <code>src/App.js</code> ir testuoju, kaip veikia. OK, veikia. Testas nr2 ant gh pages.
+          MOKSLAI PRASIDEDA!
         </p>
         <a
           className="App-link"
