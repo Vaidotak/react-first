@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          MOKSLAI PRASIDEDA!
+          MOKSLAI PRASIDEDA! SPA jau sukasi ant React.
         </p>
         <a
           className="App-link"
