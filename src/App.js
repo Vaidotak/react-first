@@ -1,5 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Technologies from "./Technologies.js"
+import Header from "./Header.js"
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header />
+      <Technologies />
+
     </div>
   );
 }
