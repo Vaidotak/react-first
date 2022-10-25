@@ -9,19 +9,19 @@ const Navbar =()=>{
     return(
         <nav className={s.nav}>
       <div>
-        <NavLink to='/profile' className = {activeLink }>Profile</NavLink>
+        <NavLink to='react-first/profile' className = {activeLink }>Profile</NavLink>
         </div>
       <div>
-        <NavLink to='/dialogs' className = {activeLink }>Messages</NavLink>
+        <NavLink to='react-first/dialogs' className = {activeLink }>Messages</NavLink>
         </div>
       <div>
-        <NavLink to='/news' className = { activeLink }>News</NavLink>
+        <NavLink to='react-first/news' className = { activeLink }>News</NavLink>
         </div>
       <div>
-        <NavLink to='/music' className = { activeLink }>Music</NavLink>
+        <NavLink to='react-first/music' className = { activeLink }>Music</NavLink>
         </div>
       <div>
-        <NavLink to='settings' className = { activeLink }>Settings</NavLink>
+        <NavLink to='react-first/settings' className = { activeLink }>Settings</NavLink>
         </div>
       
       </nav>
