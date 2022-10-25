@@ -13,7 +13,7 @@ const MyPosts =()=>{
           <button>post</button>
         </div>
         <Post like='2' message='Labas, ką tu?' />
-        <Post like='5' message='Sveiki' />
+        <Post like='5' message='Sveiki!' />
         </div>
       </div>
     )
