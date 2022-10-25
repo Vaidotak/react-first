@@ -17,11 +17,11 @@ function App() {
         <Navbar />
         <div className="app-content">
           <Routes>
-            <Route path='/profile' element={<Profile />}/>
-            <Route path='/dialogs' element={<Dialogs />}/>
-            <Route path='/music' element={<Music />}/>
-            <Route path='/news' element={<News />}/>
-            <Route path='/settings' element={<Settings />}/>
+            <Route path='react-first/profile/' element={<Profile />}/>
+            <Route path='react-first/dialogs' element={<Dialogs />}/>
+            <Route path='react-first/music' element={<Music />}/>
+            <Route path='react-first/news' element={<News />}/>
+            <Route path='react-first/settings' element={<Settings />}/>
           </Routes>
         </div>
       </div>
