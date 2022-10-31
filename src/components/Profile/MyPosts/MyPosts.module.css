@@ -1,5 +1,8 @@
-.MyPosts{
-    grid-area: c;
-    background-color: rgb(219, 199, 199);
-    }
+.MyPosts {
+  grid-area: c;
+  background-color: rgb(219, 199, 199);
+}
 
+.postsBlock {
+  padding: 10px;
+}

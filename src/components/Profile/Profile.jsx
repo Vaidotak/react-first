@@ -1,18 +1,14 @@
-import React from 'react';
-import MyPosts from './MyPosts/MyPosts';
-import s from './Profile.module.css';
+import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile =()=>{
-    return(
-        <div>
-        <div>
-        <img src='https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg'></img>
-        </div>
-        <div>
-ava + description
-        </div>
-<MyPosts />
-      </div>
-    )
-}
+const Profile = (props) => {
+
+  return (
+    <div>
+      <ProfileInfo />
+      <MyPosts posts={props.state.posts} />
+    </div>
+  );
+};
 export default Profile;
